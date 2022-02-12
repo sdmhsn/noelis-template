@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NOELIS - author Blog</title>
+    <link rel="icon" href="img/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- START NAVBAR -->
+    <nav
+      id="main-navbar"
+      class="navbar navbar-expand-md navbar-light bg-light py-0"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <span class="d-none">NOELIS</span>
+          <img
+            src="img/noelis_logo.svg"
+            class="main-logo d-none d-md-inline"
+            alt="noelis logo"
+          />
+          <img
+            src="img/noelis_logo.svg"
+            class="small-logo d-inline d-md-none"
+            alt="noelis logo"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link p-4 active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-4" href="articles.html">Articles</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-4" href="article.html">Authors</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-4" href="login.html">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- END NAVBAR -->
+
+    <!-- START SLIDER -->
+    <header id="main-slide">
+      <div
+        id="mySlide"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#mySlide"
+            data-bs-slide-to="0"
+            class="active"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#mySlide"
+            data-bs-slide-to="1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#mySlide"
+            data-bs-slide-to="2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#mySlide"
+            data-bs-slide-to="3"
+          ></button>
+        </div>
+
+        <div class="carousel-inner text-white">
+          <div class="carousel-item active" id="slide1">
+            <div class="container">
+              <div class="d-md-block">
+                <h1 class="display-1 bg-dark px-4 pb-2 d-inline-block">
+                  Welcome to<strong> Noelis</strong>
+                </h1>
+                <br />
+                <p class="bg-dark px-2 pb-1 d-inline-block">
+                  Every story matters. Let's start writing yours.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" id="slide2">
+            <div class="container">
+              <div class="d-md-block text-end">
+                <h1 class="display-2 bg-dark px-4 pb-2 d-inline-block">
+                  Explore<strong> Noelis</strong>
+                </h1>
+                <br />
+                <p class="bg-dark px-2 pb-1 d-inline-block">
+                  Our free publishing platform for anyone authors.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" id="slide3">
+            <div class="container">
+              <div class="d-md-block">
+                <h1 class="display-2 bg-dark px-4 pb-2 d-inline-block">
+                  Tell Your Story
+                </h1>
+                <br />
+                <p class="bg-dark px-2 pb-1 d-inline-block">
+                  Contribute, feedback, motivation, and more with us.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" id="slide4">
+            <div class="container">
+              <div class="d-md-block text-end">
+                <h1 class="display-2 bg-dark px-4 pb-2 d-inline-block">
+                  Find<strong> Articles</strong> and<strong> Authors</strong>
+                </h1>
+                <br />
+                <p class="bg-dark px-2 pb-1 d-inline-block">
+                  View more published articles and best authors on our platform.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#mySlide"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#mySlide"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+    <!-- END SLIDER -->
+
+    <!-- SHOWOFF 1 -->
+    <section id="showoff-1" class="text-muted py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img
+              src="img/author1.jpg"
+              alt=""
+              class="img-fluid mb-3 img-thumbnail"
+            />
+          </div>
+          <div class="col-md-6 py-md-5">
+            <figure class="text-center py-md-5">
+              <blockquote class="blockquote">
+                <p>
+                  “Your writing voice is the deepest possible reflection of who
+                  you are. The job of your voice is not to seduce or flatter or
+                  make well-shaped sentences. In your voice, your readers should
+                  be able to hear the contents of your mind, your heart, your
+                  soul.”
+                </p>
+              </blockquote>
+              <figcaption class="blockquote-footer">Meg Rosoff</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END SHOWOFF 1 -->
+
+    <!-- SHOWOFF 2 -->
+    <section id="showoff-2" class="bg-light text-muted py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 order-1 order-md-0 py-md-5">
+            <h2>Join With Us and Grow Together</h2>
+            <p class="lead">
+              Noelis helps you track your progress, set milestones, connect with
+              other authors in a vast community, and participate in events that
+              are designed to make sure you finish your article. Oh, and best of
+              all, it’s free!
+            </p>
+            <button class="btn btn-outline-dark mb-3">Sign Up</button>
+          </div>
+          <div class="col-md-6 order-0 order-md-1">
+            <img
+              src="img/join.jpg"
+              alt=""
+              class="img-fluid mb-3 img-thumbnail"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END SHOWOFF 2 -->
+
+    <!--  EXPLORE -->
+    <section id="explore">
+      <div class="dark-overlay">
+        <div class="container">
+          <div class="row">
+            <div class="col text-center">
+              <div class="py-5">
+                <h1 class="display-4">Explore</h1>
+                <p class="lead">
+                  Discover articles by talented authors in our platform. On the
+                  other hand, you can find writing talents and facilitating
+                  publishers as well.
+                </p>
+                <a href="#" class="btn btn-outline-dark">Find Out More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END EXPLORE-->
+
+    <!-- START MEMBER SHOWCASE-->
+    <section id="member-showcase" class="py-5 bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h1>Our Member</h1>
+            <hr class="w-25 mx-auto" />
+            <p class="lead">
+              Become a member today. Post your article and build our community.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col text-center">
+            <img
+              src="img/people1.jpg"
+              class="rounded-circle img-thumbnail m-2"
+            />
+            <img
+              src="img/people2.jpg"
+              class="rounded-circle img-thumbnail m-2"
+            />
+            <img
+              src="img/people3.jpg"
+              class="rounded-circle img-thumbnail m-2"
+            />
+            <img
+              src="img/people4.jpg"
+              class="rounded-circle img-thumbnail m-2"
+            />
+            <img
+              src="img/people5.jpg"
+              class="rounded-circle img-thumbnail m-2"
+            />
+            <img
+              src="img/people6.jpg"
+              class="rounded-circle img-thumbnail m-2"
+            />
+            <img
+              src="img/people7.jpg"
+              class="rounded-circle img-thumbnail m-2"
+            />
+            <img
+              src="img/people8.jpg"
+              class="rounded-circle img-thumbnail m-2"
+            />
+            <img
+              src="img/people9.jpg"
+              class="rounded-circle img-thumbnail m-2"
+            />
+            <img
+              src="img/people10.jpg"
+              class="rounded-circle img-thumbnail m-2"
+            />
+            <img
+              src="img/people11.jpg"
+              class="rounded-circle img-thumbnail m-2"
+            />
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col text-center">
+            <button class="btn btn-outline-dark mx-auto">
+              View More Member
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END MEMBER SHOWCASE-->
+
+    <!-- TOTAL SHOWCASE
+    <section id="total-showcase" class="py-5 text-white d-none d-md-block">
+      <div class="container">
+        <div class="row text-center text-secondary">
+          <div class="col-2">
+            <div class="text-dark mb-1">
+              <i class="bi-chat-dots fs-1"></i>
+            </div>
+            <p class="h5 mb-0">Activity</p>
+            <p class="h3"><strong>4,302</strong></p>
+          </div>
+
+          <div class="col-2">
+            <div class="text-dark mb-1">
+              <i class="bi-person fs-1"></i>
+            </div>
+            <p class="h5 mb-0">Member</p>
+            <p class="h3"><strong>1,890</strong></p>
+          </div>
+
+          <div class="col-2">
+            <div class="text-dark mb-1">
+              <i class="bi-broadcast-pin fs-1"></i>
+            </div>
+            <p class="h5 mb-0">Online</p>
+            <p class="h3"><strong>540</strong></p>
+          </div>
+
+          <div class="col-2">
+            <div class="text-dark mb-1">
+              <i class="bi-people fs-1"></i>
+            </div>
+            <p class="h5 mb-0">Groups</p>
+            <p class="h3"><strong>890</strong></p>
+          </div>
+
+          <div class="col-2">
+            <div class="text-dark mb-1">
+              <i class="bi-ui-checks fs-1"></i>
+            </div>
+            <p class="h5 mb-0">Forums</p>
+            <p class="h3"><strong>223</strong></p>
+          </div>
+
+          <div class="col-2">
+            <div class="text-dark mb-1">
+              <i class="bi-megaphone-fill fs-1"></i>
+            </div>
+            <p class="h5 mb-0">Topics</p>
+            <p class="h3"><strong>5,397</strong></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    -->
+
+    <!-- MEMBER LIST 
+    <section id="member-list" class="py-5 bg-light text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h1>Member List</h1>
+            <hr class="w-25 mx-auto" />
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos, vitae!
+            </p>
+          </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+          <div class="col mt-3">
+            <div class="card">
+              <img class="card-img-top" src="img/thumbnail1.jpg" />
+              <div class="card-body">
+                <img
+                  src="img/people1.jpg"
+                  class="rounded-circle img-thumbnail"
+                />
+                <h5 class="card-title">Ilham Saputra</h5>
+                <ul class="list-unstyled text-start my-4">
+                  <li class="m-2 ms-3">
+                    <i class="bi-clock-fill me-2"></i>Bergabung di November 2010
+                  </li>
+                  <li class="m-2 ms-3">
+                    <i class="bi-briefcase-fill me-2"></i>CEO PT. Serba Jaya
+                    Sentosa
+                  </li>
+                  <li class="m-2 ms-3">
+                    <i class="bi-house-fill me-2"></i>Bandung
+                  </li>
+                  <li class="m-2 ms-3">
+                    <i class="bi-envelope-fill me-2"></i>ilhamsaputra@gmail.com
+                  </li>
+                </ul>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Facilis, autem.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">Last seen 3 minutes ago</small>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mt-3">
+            <div class="card">
+              <img class="card-img-top" src="img/thumbnail2.jpg" />
+              <div class="card-body">
+                <img
+                  src="img/people2.jpg"
+                  class="rounded-circle img-thumbnail"
+                />
+                <h5 class="card-title">Shakila Yuliarti</h5>
+                <ul class="list-unstyled text-start my-4">
+                  <li class="m-2 ms-3">
+                    <i class="bi-clock-fill me-2"></i>Bergabung di Januari 2016
+                  </li>
+                  <li class="m-2 ms-3">
+                    <i class="bi-briefcase-fill me-2"></i>CS PT. Elektro Makmur
+                    Jaya
+                  </li>
+                  <li class="m-2 ms-3">
+                    <i class="bi-house-fill me-2"></i>Surabaya
+                  </li>
+                  <li class="m-2 ms-3">
+                    <i class="bi-envelope-fill me-2"></i>shakila@yahoo.co.id
+                  </li>
+                </ul>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Facilis, autem.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">Last seen 2 days ago</small>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mt-3">
+            <div class="card">
+              <img class="card-img-top" src="img/thumbnail3.jpg" />
+              <div class="card-body">
+                <img
+                  src="img/people3.jpg"
+                  class="rounded-circle img-thumbnail"
+                />
+                <h5 class="card-title">Diana Rahayu</h5>
+                <ul class="list-unstyled text-start my-4">
+                  <li class="m-2 ms-3">
+                    <i class="bi-clock-fill me-2"></i>Bergabung di Juni 2014
+                  </li>
+                  <li class="m-2 ms-3">
+                    <i class="bi-briefcase-fill me-2"></i>Marketing Tokobaju.com
+                  </li>
+                  <li class="m-2 ms-3">
+                    <i class="bi-house-fill me-2"></i>Pekanbaru
+                  </li>
+                  <li class="m-2 ms-3">
+                    <i class="bi-envelope-fill me-2"></i>diana_123@gmail.com
+                  </li>
+                </ul>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Facilis, autem.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">online</small>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mt-3">
+            <div class="card">
+              <img class="card-img-top" src="img/thumbnail4.jpg" />
+              <div class="card-body">
+                <img
+                  src="img/people4.jpg"
+                  class="rounded-circle img-thumbnail"
+                />
+                <h5 class="card-title">Prayitna Warsa Ardianto</h5>
+                <ul class="list-unstyled text-start my-4">
+                  <li class="m-2 ms-3">
+                    <i class="bi-clock-fill me-2"></i>Bergabung di Maret 2017
+                  </li>
+                  <li class="m-2 ms-3">
+                    <i class="bi-briefcase-fill me-2"></i>Owner PT. Aneka
+                    Komputer
+                  </li>
+                  <li class="m-2 ms-3">
+                    <i class="bi-house-fill me-2"></i>Jakarta
+                  </li>
+                  <li class="m-2 ms-3">
+                    <i class="bi-envelope-fill me-2"></i>prayitna001@outlook.com
+                  </li>
+                </ul>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Facilis, autem.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">online</small>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mt-3">
+            <div class="card">
+              <img class="card-img-top" src="img/thumbnail5.jpg" />
+              <div class="card-body">
+                <img
+                  src="img/people5.jpg"
+                  class="rounded-circle img-thumbnail"
+                />
+                <h5 class="card-title">Edi Kurniawan</h5>
+                <ul class="list-unstyled text-start my-4">
+                  <li class="m-2 ms-3">
+                    <i class="bi-clock-fill me-2"></i>Bergabung di Desember 2012
+                  </li>
+                  <li class="m-2 ms-3">
+                    <i class="bi-briefcase-fill me-2"></i>Teknisi CV. Komputika
+                  </li>
+                  <li class="m-2 ms-3">
+                    <i class="bi-house-fill me-2"></i>Bekasi
+                  </li>
+                  <li class="m-2 ms-3">
+                    <i class="bi-envelope-fill me-2"></i>kurniawanedi@gmail.com
+                  </li>
+                </ul>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Facilis, autem.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">Last seen 10 minutes ago</small>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mt-3">
+            <div class="card">
+              <img class="card-img-top" src="img/thumbnail6.jpg" />
+              <div class="card-body">
+                <img
+                  src="img/people6.jpg"
+                  class="rounded-circle img-thumbnail"
+                />
+                <h5 class="card-title">Zamira Novitasari</h5>
+                <ul class="list-unstyled text-start my-4">
+                  <li class="m-2 ms-3">
+                    <i class="bi-clock-fill me-2"></i>Bergabung di Juni 2016
+                  </li>
+                  <li class="m-2 ms-3">
+                    <i class="bi-briefcase-fill me-2"></i>CS Traveloka.com
+                  </li>
+                  <li class="m-2 ms-3">
+                    <i class="bi-house-fill me-2"></i>Makassar
+                  </li>
+                  <li class="m-2 ms-3">
+                    <i class="bi-envelope-fill me-2"></i>zamira@tiketku.com
+                  </li>
+                </ul>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Facilis, autem.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">online</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    -->
+
+    <!-- START FOOTER -->
+    <footer id="main-footer" class="text-white bg-dark py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 text-center text-md-start py-2">
+            <a href="index.html">
+              <img src="img/noelis_logo.svg" style="height: 60px" />
+            </a>
+            <div class="mt-3 d-none d-md-block">
+              <small>Copyright &copy; NOELIS 2022. All Rights Reserved.</small>
+            </div>
+          </div>
+
+          <div class="col-md-3 text-center text-md-start py-2">
+            <h5>Our Services</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="text-white text-decoration-none">
+                  Our mission</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none">
+                  Help/Contact Us</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none">
+                  Privacy Policy</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none">
+                  Cookie Policy</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none">
+                  Terms & Conditions</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-3 text-center text-md-start py-2">
+            <h5>Find Us On</h5>
+            <div style="white-space: nowrap">
+              <a href="#" class="text-white text-decoration-none me-2">
+                <i class="bi-facebook fs-5"></i>
+              </a>
+              <a href="#" class="text-white text-decoration-none me-2">
+                <i class="bi-twitter fs-5"></i>
+              </a>
+              <a href="#" class="text-white text-decoration-none me-2">
+                <i class="bi-instagram fs-5"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-3 text-center text-md-start py-2">
+            <h5>Contact Us</h5>
+            <div style="white-space: nowrap">
+              <i class="bi-envelope fs-5 me-2 me-lg-3"></i>admin@noelis.com
+            </div>
+            <div style="white-space: nowrap">
+              <i class="bi-phone fs-5 me-2 me-lg-3"></i>(021) 123456
+            </div>
+            <div style="white-space: nowrap">
+              <i class="bi-globe fs-5 me-2 me-lg-3"></i>www.noelis.com
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-3 d-md-none text-center">
+        <small>Copyright &copy; NOELIS 2022. All Rights Reserved.</small>
+      </div>
+    </footer>
+    <!-- END FOOTER -->
+
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>
+</html>
