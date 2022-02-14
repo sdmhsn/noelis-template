@@ -57,9 +57,10 @@
   background-size: cover;
   background-attachment: fixed;
   background-image: url('../img/explore-image.jpg');
+  background-position-y: -400px;
 }
 #explore .dark-overlay {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.5);
   width: 100%;
 }
 
