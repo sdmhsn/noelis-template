@@ -89,29 +89,25 @@
 }
 
 /* HEADER IMAGE - Gambar untuk setiap halaman  */
-#blog-header {
+#articles-header {
   background-image: url('../img/full-image7.jpg');
-  background-position-y: -200px;
-}
-#article-header {
-  background-image: url('../img/full-image8.jpg');
-  background-position-y: -200px;
-}
-#gallery-header {
-  background-image: url('../img/full-image2.jpg');
   background-position-y: -400px;
+}
+#authors-header {
+  background-image: url('../img/join.jpg');
+  background-position-y: -200px;
 }
 #login-header {
   background-image: url('../img/full-image10.jpg');
   background-position-y: -100px;
 }
 
-/* BLOG LIST - mengatur efek underscore di link */
-#blog a {
+/* ARTICLES LIST - mengatur efek underscore di link */
+#articles a {
   text-decoration: none;
 }
 
-#blog a:hover {
+#articles a:hover {
   text-decoration: underline;
 }
 
@@ -122,6 +118,12 @@
 
 #article a:hover {
   text-decoration: underline;
+}
+
+/* MEMBER LIST - Halaman Authors */
+#member-list .card-body img {
+  width: 125px;
+  margin-top: -80px;
 }
 
 /*-- Nonaktifkan XXL Breakpoint (opsional) --*/
