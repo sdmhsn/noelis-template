@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Authors - NOELIS Author Blog</title>
+    <link rel="icon" href="img/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- START NAVBAR -->
+    <nav
+      id="main-navbar"
+      class="navbar navbar-expand-md navbar-light bg-light py-0"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <span class="d-none">NOELIS</span>
+          <img
+            src="img/noelis_logo.svg"
+            class="main-logo d-none d-md-inline"
+            alt="noelis logo"
+          />
+          <img
+            src="img/noelis_logo.svg"
+            class="small-logo d-inline d-md-none"
+            alt="noelis logo"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link p-4" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-4" href="articles.html">Articles</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-4 active" href="authors.html">Authors</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-4" href="login.html">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- END NAVBAR -->
+
+    <!-- START HEADER -->
+    <header id="authors-header" class="header-image text-white d-block">
+      <div class="header-overlay d-flex">
+        <div class="container align-self-center">
+          <h1 class="text-center mt-0">Search for <span>Authors</span></h1>
+          <div class="row">
+            <div class="col">
+              <div class="input-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Search by author name"
+                  aria-label="Search Article"
+                  aria-describedby="button-addon2"
+                />
+                <button class="btn btn-dark" type="button" id="button-addon2">
+                  Search
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- END HEADER -->
+
+    <!-- START AUTHOR CONTAINER -->
+    <section id="member-list" class="py-5 bg-light text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h1>Member List</h1>
+            <hr class="w-25 mx-auto" />
+            <p class="lead">
+              Connect with other authors in a vast community, and participate
+              with us!
+            </p>
+          </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+          <div class="col mt-3">
+            <div class="card">
+              <img class="card-img-top" src="img/thumbnail1.jpg" />
+              <div class="card-body">
+                <img
+                  src="img/people1.jpg"
+                  class="rounded-circle img-thumbnail"
+                />
+                <h5 class="card-title">Ilham Saputra</h5>
+                <ul class="list-unstyled text-start my-4">
+                  <li class="m-2 ms-3">
+                    <i class="bi-clock-fill me-2"></i>Bergabung di November 2010
+                  </li>
+                  <li class="m-2 ms-3">
+                    <i class="bi-briefcase-fill me-2"></i>CEO PT. Serba Jaya
+                    Sentosa
+                  </li>
+                  <li class="m-2 ms-3">
+                    <i class="bi-house-fill me-2"></i>Bandung
+                  </li>
+                  <li class="m-2 ms-3">
+                    <i class="bi-envelope-fill me-2"></i>ilhamsaputra@gmail.com
+                  </li>
+                </ul>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Facilis, autem.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">Last seen 3 minutes ago</small>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mt-3">
+            <div class="card">
+              <img class="card-img-top" src="img/thumbnail2.jpg" />
+              <div class="card-body">
+                <img
+                  src="img/people2.jpg"
+                  class="rounded-circle img-thumbnail"
+                />
+                <h5 class="card-title">Shakila Yuliarti</h5>
+                <ul class="list-unstyled text-start my-4">
+                  <li class="m-2 ms-3">
+                    <i class="bi-clock-fill me-2"></i>Bergabung di Januari 2016
+                  </li>
+                  <li class="m-2 ms-3">
+                    <i class="bi-briefcase-fill me-2"></i>CS PT. Elektro Makmur
+                    Jaya
+                  </li>
+                  <li class="m-2 ms-3">
+                    <i class="bi-house-fill me-2"></i>Surabaya
+                  </li>
+                  <li class="m-2 ms-3">
+                    <i class="bi-envelope-fill me-2"></i>shakila@yahoo.co.id
+                  </li>
+                </ul>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Facilis, autem.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">Last seen 2 days ago</small>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mt-3">
+            <div class="card">
+              <img class="card-img-top" src="img/thumbnail3.jpg" />
+              <div class="card-body">
+                <img
+                  src="img/people3.jpg"
+                  class="rounded-circle img-thumbnail"
+                />
+                <h5 class="card-title">Diana Rahayu</h5>
+                <ul class="list-unstyled text-start my-4">
+                  <li class="m-2 ms-3">
+                    <i class="bi-clock-fill me-2"></i>Bergabung di Juni 2014
+                  </li>
+                  <li class="m-2 ms-3">
+                    <i class="bi-briefcase-fill me-2"></i>Marketing Tokobaju.com
+                  </li>
+                  <li class="m-2 ms-3">
+                    <i class="bi-house-fill me-2"></i>Pekanbaru
+                  </li>
+                  <li class="m-2 ms-3">
+                    <i class="bi-envelope-fill me-2"></i>diana_123@gmail.com
+                  </li>
+                </ul>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Facilis, autem.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">online</small>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mt-3">
+            <div class="card">
+              <img class="card-img-top" src="img/thumbnail4.jpg" />
+              <div class="card-body">
+                <img
+                  src="img/people4.jpg"
+                  class="rounded-circle img-thumbnail"
+                />
+                <h5 class="card-title">Prayitna Warsa Ardianto</h5>
+                <ul class="list-unstyled text-start my-4">
+                  <li class="m-2 ms-3">
+                    <i class="bi-clock-fill me-2"></i>Bergabung di Maret 2017
+                  </li>
+                  <li class="m-2 ms-3">
+                    <i class="bi-briefcase-fill me-2"></i>Owner PT. Aneka
+                    Komputer
+                  </li>
+                  <li class="m-2 ms-3">
+                    <i class="bi-house-fill me-2"></i>Jakarta
+                  </li>
+                  <li class="m-2 ms-3">
+                    <i class="bi-envelope-fill me-2"></i>prayitna001@outlook.com
+                  </li>
+                </ul>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Facilis, autem.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">online</small>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mt-3">
+            <div class="card">
+              <img class="card-img-top" src="img/thumbnail5.jpg" />
+              <div class="card-body">
+                <img
+                  src="img/people5.jpg"
+                  class="rounded-circle img-thumbnail"
+                />
+                <h5 class="card-title">Edi Kurniawan</h5>
+                <ul class="list-unstyled text-start my-4">
+                  <li class="m-2 ms-3">
+                    <i class="bi-clock-fill me-2"></i>Bergabung di Desember 2012
+                  </li>
+                  <li class="m-2 ms-3">
+                    <i class="bi-briefcase-fill me-2"></i>Teknisi CV. Komputika
+                  </li>
+                  <li class="m-2 ms-3">
+                    <i class="bi-house-fill me-2"></i>Bekasi
+                  </li>
+                  <li class="m-2 ms-3">
+                    <i class="bi-envelope-fill me-2"></i>kurniawanedi@gmail.com
+                  </li>
+                </ul>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Facilis, autem.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">Last seen 10 minutes ago</small>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mt-3">
+            <div class="card">
+              <img class="card-img-top" src="img/thumbnail6.jpg" />
+              <div class="card-body">
+                <img
+                  src="img/people6.jpg"
+                  class="rounded-circle img-thumbnail"
+                />
+                <h5 class="card-title">Zamira Novitasari</h5>
+                <ul class="list-unstyled text-start my-4">
+                  <li class="m-2 ms-3">
+                    <i class="bi-clock-fill me-2"></i>Bergabung di Juni 2016
+                  </li>
+                  <li class="m-2 ms-3">
+                    <i class="bi-briefcase-fill me-2"></i>CS Traveloka.com
+                  </li>
+                  <li class="m-2 ms-3">
+                    <i class="bi-house-fill me-2"></i>Makassar
+                  </li>
+                  <li class="m-2 ms-3">
+                    <i class="bi-envelope-fill me-2"></i>zamira@tiketku.com
+                  </li>
+                </ul>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Facilis, autem.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">online</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- START PAGINATION -->
+      <ul class="pagination py-5 justify-content-center">
+        <li class="page-item disabled">
+          <a class="page-link text-decoration-none" href="#">1</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link text-dark text-decoration-none" href="#">2</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link text-dark text-decoration-none" href="#">3</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link text-dark text-decoration-none" href="#">Next</a>
+        </li>
+      </ul>
+      <!-- END PAGINATION -->
+    </section>
+    <!-- END AUTHOR CONTAINER -->
+
+    <!-- START FOOTER -->
+    <footer id="main-footer" class="text-white bg-dark py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 text-center text-md-start py-2">
+            <a href="index.html">
+              <img src="img/noelis_logo.svg" style="height: 60px" />
+            </a>
+            <div class="mt-3 d-none d-md-block">
+              <small>Copyright &copy; NOELIS 2022. All Rights Reserved.</small>
+            </div>
+          </div>
+
+          <div class="col-md-3 text-center text-md-start py-2">
+            <h5>Our Services</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="text-white text-decoration-none">
+                  Our mission</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none">
+                  Privacy Policy</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none">
+                  Cookie Policy</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none">
+                  Terms & Conditions</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-3 text-center text-md-start py-2">
+            <h5>Find Us On</h5>
+            <div style="white-space: nowrap">
+              <a href="#" class="text-white text-decoration-none me-2">
+                <i class="bi-facebook fs-5"></i>
+              </a>
+              <a href="#" class="text-white text-decoration-none me-2">
+                <i class="bi-twitter fs-5"></i>
+              </a>
+              <a href="#" class="text-white text-decoration-none me-2">
+                <i class="bi-instagram fs-5"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-3 text-center text-md-start py-2">
+            <h5>Contact Us</h5>
+            <div style="white-space: nowrap">
+              <i class="bi-envelope fs-5 me-2 me-lg-3"></i>admin@noelis.com
+            </div>
+            <div style="white-space: nowrap">
+              <i class="bi-phone fs-5 me-2 me-lg-3"></i>(021) 123456
+            </div>
+            <div style="white-space: nowrap">
+              <i class="bi-globe fs-5 me-2 me-lg-3"></i>www.noelis.com
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-3 d-md-none text-center">
+        <small>Copyright &copy; NOELIS 2022. All Rights Reserved.</small>
+      </div>
+    </footer>
+    <!-- END FOOTER -->
+
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>
+</html>
